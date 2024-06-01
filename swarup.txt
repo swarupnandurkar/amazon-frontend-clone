@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
+
+      <div class="nav-address border">
+        <p class="add-first"> Deliver to </p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"> </i>
+          <p class="add-second">india</p>
+        </div>
+      </div>
+
+      <div class="nav-search">
+        <select class="Search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search Amazon" class="Search-input">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="nav-signin border">
+        <p><span>Hello , sign in</span></p>
+        <p class="nav-second">Account & Lists</p>
+      </div>
+
+      <div class="nav-return border">
+        <p><span>Returns </span></p>
+        <p class="nav-second">& Orders</p>
+      </div>
+
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-all">
+        <i class="fa-solid fa-bars"></i>
+        All
+      </div>
+      <div class="panel-ops">
+        <p>Todays Deals</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p>Gifts Cards</p>
+        <p>Sell</p>
+      </div>
+      <div class="panel-deals">
+        Shop deals in Electronics
+      </div>
+    </div>
+  </header>
+
+  <div class="hero-section">
+    <div class="hero-msg">
+      <p>Hi  I am <b><i> Swarup Nandurkar ,</i></b> I have created an Amazon clone.   <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=678802104188&hvpos=&hvnetw=g&hvrand=2350045305093245249&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9303927&hvtargid=kwd-10573980&hydadcr=14453_2371562"> Click here</a>  </p>
+     
+    </div>
+  </div>
+
+  <div class="shop-section">
+
+    <div class="box1 box">
+      <div class="box-content">
+        <h2><b>Clothes</b></h2>
+        <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+        <p><a href="https://www.amazon.in/s?k=clothes&crid=NATVTAVMAE9F&sprefix=clothes%2Caps%2C283&ref=nb_sb_noss_1"> See more</a> </p>
+      </div>
+    </div>
+    <div class="box2 box">
+      <div class="box-content">
+        <h2><b>Health & Personal Care</b></h2>
+        <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+        <p><a href="https://www.amazon.in/s?k=health+and+personal+care&crid=1R2GT7ZCAMI4T&sprefix=health+personal+care%2Caps%2C240&ref=nb_sb_ss_ts-doa-p_2_20"> See more</a> </p>
+      </div>
+    </div>
+    <div class="box3 box">
+      <div class="box-content">
+        <h2><b>Furniture</b></h2>
+        <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+        <p><a href="https://www.amazon.in/s?k=furniture&crid=3S4PMHSRB9TIN&sprefix=fur%2Caps%2C304&ref=nb_sb_ss_ts-doa-p_1_3"> See more</a> </p>
+      </div>
+    </div>
+    <div class="box4 box">
+      <div class="box-content">
+        <h2><b>Electronics</b></h2>
+        <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+        <p><a href="https://www.amazon.in/b/?_encoding=UTF8&node=1389402031&pd_rd_w=1ELfq&content-id=amzn1.sym.bcdba563-6404-4299-9308-11ca5f40f96e&pf_rd_p=bcdba563-6404-4299-9308-11ca5f40f96e&pf_rd_r=AD98BDQJKM9Z7KCHN157&pd_rd_wg=cJg0n&pd_rd_r=a30bf6fa-f017-4f3e-92cb-dc605fcf2f2a&ref_=pd_gw_unk"> See more</a> </p>
+      </div>
+    </div>
+  <div class="box5 box">
+    <div class="box-content">
+      <h2><b>Make-up Kit</b></h2>
+      <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+      <p><a href="https://www.amazon.in/s?k=makeup+kit+complete+beauty+care&crid=GYBPMHIH60JC&sprefix=makup+kit%2Caps%2C265&ref=nb_sb_ss_ts-doa-p_1_9"> See more</a> </p>
+    </div>
+  </div>
+  <div class="box6 box">
+    <div class="box-content">
+      <h2><b>Pet Care</b></h2>
+      <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+      <p><a href="https://www.amazon.in/s?k=pet+care&crid=3A8Y6MIVTRTFW&sprefix=pet+care%2Caps%2C269&ref=nb_sb_ss_ts-doa-p_1_8"> See more</a> </p>
+    </div>
+  </div>
+  <div class="box7 box">
+    <div class="box-content">
+      <h2><b>Toys</b></h2>
+      <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+      <p><a href="https://www.amazon.in/s?k=toys&crid=167SC9TLUVZXU&sprefix=toys%2Caps%2C253&ref=nb_sb_noss_1"> See more</a> </p>
+    </div>
+  </div>
+  <div class="box8 box">
+    <div class="box-content">
+      <h2><b>Grooming</b></h2>
+      <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+      <p><a href="https://www.amazon.in/s?k=grooming&crid=1WBZ5FCMA7AY7&sprefix=grommo%2Caps%2C298&ref=nb_sb_ss_ts-doa-p_2_6"> See more</a> </p>
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+    <div class="foot-panel1">
+      Back to Top
+    </div>
+    <div class="foot-panel2">
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
